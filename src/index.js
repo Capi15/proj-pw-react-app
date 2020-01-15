@@ -2,15 +2,9 @@
  * Module dependencies.
  */
 
-import "bootstrap/dist/css/bootstrap.css";
-import React from "react";
-import ReactDOM from "react-dom";
-// import HomePage from "./views/index";
-import WalletPage from "./views/wallet";
+import 'bootstrap/dist/css/bootstrap.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import APP from './App';
 
-ReactDOM.render(
-	<div>
-		<WalletPage />
-	</div>,
-	document.getElementById("root")
-);
+ReactDOM.render(<APP />, document.getElementById('root'));
